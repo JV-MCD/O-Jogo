@@ -1,0 +1,115 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+header{
+background-color: black;
+padding: 22px;
+color: #f1f5f7;
+margin-bottom: 16px;}
+
+header h1
+section h2{
+    font-size: 32px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header nav li{
+    display: inline;
+margin-left: 16px;
+}
+
+header nav li,
+section p,
+form,input,button,textarea{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #f1f5f7;
+    font-size: 18px;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+}
+
+header .Container,
+#Sobre .Container,
+#Fale-Conosco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+#Sobre .Container{
+align-items: flex-start;
+margin-bottom: 16px;}
+
+.Container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;}
+
+    section .Jogo{
+        max-height: 400px;
+        height: 100%;
+        margin-right: 16px;
+    }
+
+    section h2 {
+        margin-bottom: 8px;
+    }
+
+    section p {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+
+#Apoio img{
+        max-height: 150px;
+        height: 100%;
+        max-width: 150px;
+        width: 100%;
+        margin-right: 16px;
+        margin-bottom: 8px;
+    }
+
+#Apoio li{
+    list-style-type: none;
+    display: flex;
+    max-width: 50%;
+}
+
+#Apoio h2{
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+#Sobre{
+    padding-bottom: 16px;
+}
+
+#Time h2{
+justify-content: flex-start;
+}
+
+form,input,button,textarea{
+    width: 300px;
+}
+
+form,input,textarea{
+    height: 45px;
+}
+
+footer p{
+    font-size: small;
+}
+
+footer{
+margin-top: 32px;}
